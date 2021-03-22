@@ -88,7 +88,7 @@ function declareWinner(who) {
     }
     if(who=="Tie Game!")
     {
-        t++;
+        t+=1;
         var ptag = document.getElementById('ts');
        ptag.innerHTML = t;
     }
