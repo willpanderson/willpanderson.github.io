@@ -93,13 +93,13 @@ function declareWinner(who) {
        ptag.innerHTML = w;
 
     }
-    if(who=="You lose.")
+    else if(who=="You lose.")
     {
         l++;
         var ptag = document.getElementById('ls');
         ptag.innerHTML = l;
     }
-    if(who=="Tie Game!")
+    else if(who=="Tie Game!")
     {
         t++;
         var ptag = document.getElementById('ts');
