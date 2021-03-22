@@ -16,7 +16,7 @@ td {
 {
     display: block;
     margin-top: 400px;
-    
+    background: #d3d3d3;
     display: block;
     width: 10%;
     margin-top: 400px;
@@ -32,6 +32,7 @@ table {
 	left: 50%;
 	margin-left: -155px;
 	top: 50px;
+	background: #d3d3d3;
 }
 
 table tr:first-child td {
