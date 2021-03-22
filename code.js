@@ -97,13 +97,13 @@ function declareWinner(who) {
     {
         l++;
         var ptag = document.getElementById('ls');
-       ptag.innerHTML = l;
+        ptag.innerHTML = l;
     }
     if(who=="Tie Game!")
     {
         t++;
         var ptag = document.getElementById('ts');
-       ptag.innerHTML = t;
+        ptag.innerHTML = t;
     }
 }
 
