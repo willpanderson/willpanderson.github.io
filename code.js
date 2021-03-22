@@ -90,7 +90,7 @@ function declareWinner(who) {
     {
         t++;
         var ptag = document.getElementById('ts');
-       ptag.innerHTML =t;
+       ptag.innerHTML = t;
     }
 }
 
