@@ -7,7 +7,6 @@ td {
 	font-family:  "Comic Sans MS", cursive, sans-serif;
 	font-size:  70px;
 	cursor: pointer;
-	background: #d3d3d3;
 }
 
 
@@ -16,7 +15,7 @@ td {
 {
     display: block;
     margin-top: 400px;
-    background: #d3d3d3;
+    
     display: block;
     width: 10%;
     margin-top: 400px;
@@ -32,7 +31,6 @@ table {
 	left: 50%;
 	margin-left: -155px;
 	top: 50px;
-
 }
 
 table tr:first-child td {
