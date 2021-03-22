@@ -58,6 +58,19 @@ function checkWin(board, player) {
     
 	return gameWon;
 }
+function checkTie() {
+	if (emptySquares().length == 0) {
+		for (var i = 0; i < cells.length; i++) {
+			cells[i].style.backgroundColor = "green";
+			cells[i].removeEventListener('click', turnClick, false);
+		}
+		declareWinner("Tie Game!")
+
+		return true;
+	}
+	return false;
+}
+
 
 function gameOver(gameWon) {
 	for (let index of possiblewins[gameWon.index]) {
@@ -88,7 +101,7 @@ function declareWinner(who) {
     }
     if(who=="Tie Game!")
     {
-        t+=1;
+        t++;
         var ptag = document.getElementById('ts');
        ptag.innerHTML = t;
     }
@@ -101,20 +114,6 @@ function emptySquares() {
 function bestSpot() {
 	return minimax(origBoard, ai).index;
 }
-
-function checkTie() {
-	if (emptySquares().length == 0) {
-		for (var i = 0; i < cells.length; i++) {
-			cells[i].style.backgroundColor = "green";
-			cells[i].removeEventListener('click', turnClick, false);
-		}
-		declareWinner("Tie Game!")
-
-		return true;
-	}
-	return false;
-}
-
 
 
 
