@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Unbeatable Tic Tac Toe</title>
-  
-  <link rel="stylesheet" href="look.css">
+	<meta charset="UTF-8">
+	<title>Unbeatable Tic Tac Toe</title>
+
+	<link rel="stylesheet" href="looks.css">
 
 </head>
 
 <body>
-    
-	<table>
+
+	<table class="game-table">
 		<tr>
 			<td class="cell" id="0"></td>
 			<td class="cell" id="1"></td>
@@ -28,18 +29,49 @@
 			<td class="cell" id="8"></td>
 		</tr>
 	</table>
-    <div class="yo">
-        <button onClick="startGame()">		Replay</button>
-        <br></br>
-        <h>Wins: </h><t><h id="ws">0</h>
-        <h>&nbsp;Losses: </h><h id="ls">0</h>
-        <h>&nbsp;Ties: </h><h id="ts">0</h>
-    </div>
-	<div class="endgame">
+
+
+
+
+	<div class="stats">
+
+		<table class="stat-table">
+			<tr>
+				<td>
+					<h>Wins</h>
+				</td>
+				<td>
+					<h>Loss</h>
+				</td>
+				<td>
+					<h>Ties</h>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h id="ws">0</h>
+				</td>
+				<td>
+					<h id="ls">0</h>
+				</td>
+				<td>
+					<h id="ts">0</h>
+				</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="button">
+		<button onClick="startGame()">Replay</button>
+	</div>
+
+	<div class="game-ended">
 		<div class="text"></div>
 	</div>
-	
 
-  <script src="code.js"></script>
+
+	<script src="tictactoe.js"></script>
+
 </body>
+
 </html>
