@@ -4,6 +4,7 @@ const ai = 'O';
 var h_win=0;
 var h_loss=0;
 var h_tie=0;
+var sound1 = new Audio('sadtrombone.swf..mp3'); 
 
 const possiblewins = [
 	[0, 1, 2],
@@ -141,8 +142,9 @@ function declareWinner(who) {
 	document.querySelector(".game-ended .text").innerText = who;
     if(who=="You win!")
     {
-		h_win++;
+       h_win++;
        var ptag = document.getElementById('ws');
+	
        ptag.innerHTML = h_win;
 
     }
@@ -150,6 +152,7 @@ function declareWinner(who) {
     {
         h_loss++;
         var ptag = document.getElementById('ls');
+	    sound1.play();
        ptag.innerHTML = h_loss;
     }
     if(who=="Tie Game!")
