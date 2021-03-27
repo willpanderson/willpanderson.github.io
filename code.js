@@ -4,7 +4,7 @@ const ai = 'O';
 var h_win=0;
 var h_loss=0;
 var h_tie=0;
-var sound1 = new Audio('sadtrombone.swf..mp3'); 
+var sound1 = new Audio('sadtrombone.swf.mp3'); 
 
 const possiblewins = [
 	[0, 1, 2],
