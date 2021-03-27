@@ -159,7 +159,7 @@ function declareWinner(who) {
     {
         h_tie++;
     	var ptag = document.getElementById('ts');
-	    sound2.play()
+	    sound2.play();
        	ptag.innerHTML = h_tie;
     }
 }
