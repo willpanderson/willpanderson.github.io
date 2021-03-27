@@ -5,7 +5,7 @@ var h_win=0;
 var h_loss=0;
 var h_tie=0;
 var sound1 = new Audio('sadtrombone.swf.mp3'); 
-
+var sound2 = new Audio('mixkit-air-woosh-1489.wav');
 const possiblewins = [
 	[0, 1, 2],
 	[3, 4, 5],
@@ -159,6 +159,7 @@ function declareWinner(who) {
     {
         h_tie++;
     	var ptag = document.getElementById('ts');
+	    sound2.play()
        	ptag.innerHTML = h_tie;
     }
 }
