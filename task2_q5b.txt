@@ -1,0 +1,10 @@
+SELECT CASE WHEN v.VehicleID = 'WAUTFAFH0E0010614' THEN (v.VehicleID AS VIN, v.Description, r.TotalAmount / (r.RentalType * r.Qty) AS AvgDailyPrice)
+		WHERE v.VehicleID = 'WAUTFAFH0E0010614'
+	    WHEN v.Description = 'Infiniti FX 35' THEN (v.VehicleID AS VIN, v.Description, r.TotalAmount / (r.RentalType * r.Qty) AS AvgDailyPrice)
+		WHERE v.VehicleID = 'Infiniti FX 35'
+            WHEN 'Infini' LIKE CONCAT(v.Description, '%') THEN (v.VehicleID AS VIN, v.Description, r.TotalAmount / (r.RentalType * r.Qty) AS AvgDailyPrice)
+		WHERE 'Infini' LIKE CONCAT(v.Description, '%')
+            ELSE (c.CustID, c.Name, CONCAT('$', r.TotalAmount) AS RemainingBalance)
+		ORDER BY r.TotalAmount / (r.RentalType * r.Qty) ASC END
+FROM project2.vehicle AS v
+INNER JOIN project2.rental AS r ON v.VehicleID = r.VehicleID;

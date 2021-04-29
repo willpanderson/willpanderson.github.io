@@ -1,2 +1,1 @@
-# Website
- My website containing extras and important info about me
+# CSE-3330-Project-1

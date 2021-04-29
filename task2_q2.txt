@@ -1,0 +1,5 @@
+INSERT INTO project2.vehicle (VehicleID) VALUES ('WAUTFAFH0E0010614');
+UPDATE project2.vehicle SET Description = 'Infiniti FX 35' WHERE VehicleID = 'WAUTFAFH0E0010614';
+UPDATE project2.vehicle SET Year = '2020' WHERE VehicleID = 'WAUTFAFH0E0010614';
+UPDATE project2.vehicle SET Type = '1' WHERE VehicleID = 'WAUTFAFH0E0010614';
+UPDATE project2.vehicle SET Category = '1' WHERE VehicleID = 'WAUTFAFH0E0010614';

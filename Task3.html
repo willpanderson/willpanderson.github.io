@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <center>
+        <h4>Please enter vehicle rental requirements: </h4>
+            <form action="Task3.php" method="post"> 
+            <p>Type: <select name = "vehicletype"></p>
+                    <option value = "1. Compact">1. Compact</option>
+                    <option value = "2. Medium">2. Medium</option>
+                    <option value = "3. Large">3. Large</option>
+                    <option value = "4. SUV">4. SUV</option>
+                    <option value = "5. Truck">5. Truck</option>
+                    <option value = "6. VAN">6. VAN</option>
+                </select>
+            <p>Category: <select name = "vehiclecategory"></p>
+                    <option value = "0. Basic">0. Basic</option>
+                    <option value = "1. Luxury">1. Luxury</option>
+                </select>
+            <p>Start Date (Year-Month-Day): <input name = "startdate" type="text" /></p>
+            <p>Return date (Year-Month-Day): <input name = "returndate" type = "text" /></p>
+            <p><input type= "submit" value = "Submit"/></p>
+            </form>
+
+            <form action="Home_Screen" method="post"> 
+                <p><button type = "submit">Return to the home screen</button><p>
+            </form>
+        
+        </center>
+    </body>
+</html>
