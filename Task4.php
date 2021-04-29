@@ -11,7 +11,7 @@
 
   $db_host = '127.0.0.1';
   $db_user = 'root';
-  $db_password = 'root';
+  $db_password = 'Superglide2';
   $db_db = 'Project2';
   $db_port = 3306;
   $db_socket = 'MySql';
