@@ -47,14 +47,16 @@ a:hover{
     background-color: #1B3D81;
     min-width: 30%;
     max-width: 30%;
-    margin: 1%;
+    text-align: center;
+    margin: auto;
 }
 .roundedProfile{
     border-radius: 25px;
     background-color: #1B3D81;
     min-width: 19.25%;
     max-width: 19.25%;
-    margin: 1%;
+    text-align: center;
+    margin: auto;
 }
 .description{
     text-align: center;
