@@ -51,10 +51,10 @@ a:hover{
     margin: auto;
 }
 .roundedProfile{
-    border-radius: 25px;
-    background-color: #1B3D81;
-    min-width: 19.25%;
-    max-width: 19.25%;
+    border-radius: 30px;
+    background-color: #1b3d81;
+    min-width: 22%;
+    max-width: 22%;
     text-align: center;
     margin: auto;
 }
