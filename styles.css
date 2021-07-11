@@ -53,8 +53,8 @@ a:hover{
 .roundedProfile{
     border-radius: 30px;
     background-color: #1b3d81;
-    min-width: 22%;
-    max-width: 22%;
+    min-width: 30%;
+    max-width: 30%;
     text-align: center;
     margin: auto;
 }
