@@ -28,15 +28,9 @@ a{
     color: #eeebd9;
     text-decoration: none;
 }
-a:hover{
-    color:  #1B3D81;
-}
-.active{
-    color: #1B3D81;
-    text-decoration: underline;
-}
+
 a:hover {
-  color: red;
+  color: eeedb9;
   background-color: transparent;
   text-decoration: underline;
 }
