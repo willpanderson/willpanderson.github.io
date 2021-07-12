@@ -35,6 +35,15 @@ a:hover{
     color: #1B3D81;
     text-decoration: underline;
 }
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.active{
+    color: #1B3D81;
+    text-decoration: underline;
+}
 .logo{
     padding: 10px;
     height: 15em;
