@@ -31,11 +31,9 @@ a{
 
 a:hover {
   color: orangered;
-  text-decoration: underline;
 }
 .active{
     color: orangered;
-    text-decoration: underline;
 }
 .logo{
     padding: 10px;
