@@ -30,10 +30,10 @@ a{
 }
 
 a:hover {
-  color: #828788;
+  color: red;
 }
 .active{
-    color: orangered;
+    color: red;
 }
 .logo{
     padding: 10px;
