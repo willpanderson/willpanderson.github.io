@@ -30,12 +30,12 @@ a{
 }
 
 a:hover {
-  color: eeedb9;
+  color: orangered;
   background-color: transparent;
   text-decoration: underline;
 }
 .active{
-    color: #1B3D81;
+    color: orangered;
     text-decoration: underline;
 }
 .logo{
