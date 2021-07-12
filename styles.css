@@ -31,7 +31,6 @@ a{
 
 a:hover {
   color: orangered;
-  background-color: transparent;
   text-decoration: underline;
 }
 .active{
