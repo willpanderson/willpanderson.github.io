@@ -1,0 +1,77 @@
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: capitalize;
+}
+.project-description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.card-content {
+  transition: all 150ms ease-in-out !important;
+  height: 10rem;
+  border-radius: 0;
+}
+.card {
+  background-color: var(--color-primary) !important;
+  border-radius: 0;
+  padding: 0;
+}
+.card-title-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  min-width: auto;
+  position: absolute;
+  right: 0.25rem;
+  top: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.badge i {
+  margin-right: 0.25rem;
+}
+span.badge.new {
+  border-radius: 20px;
+  padding: 0 0.5rem;
+}
+.tabs li a {
+  font-weight: bold;
+  transition: 150ms all ease-in-out;
+  color: var(--color-primary) !important;
+  background-color: var(--color-secondary) !important;
+}
+span.badge.new {
+  text-transform: lowercase;
+}
+.tab a {
+  cursor: pointer;
+}
+.card-panel {
+  background-color: var(--color-secondary);
+}
+.card-panel .not-found-title {
+  text-align: center;
+  font-style: italic;
+  color: var(--color-primary);
+}
+.text-ellipsis {
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media (min-width: 1024px) {
+  .card-content:hover {
+    transform: translate(0.75rem, 0rem);
+  }
+}
