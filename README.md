@@ -1,8 +1,8 @@
-# David Gimeno's personal website
+# William Anderson's personal website
 
 ## 🚀 Live version
 
-- Check a **live version** of this repo at [wpanderson.net](http://wpanderson.net/)
+- Check a **live version** of this repo at [wpanderson.net](http://willpanderson.github.io/)
 - You can also check the master branch in github pages at [https://github.com/willpanderson/willpanderson.github.io)
 
 ## ⚙️ Development commands
