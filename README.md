@@ -18,4 +18,3 @@
 
 ## 🖼️ Screenshots
 
-![Imgur](https://imgur.com/xOjLfx4.png)
