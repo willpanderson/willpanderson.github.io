@@ -2,8 +2,8 @@
 
 ## 🚀 Live version
 
-- Check a **live version** of this repo at [davidgimeno.cat](http://davidgimeno.cat/)
-- You can also check the master branch in github pages at [https://daliife.github.io/dgm-website-angular/](https://daliife.github.io/dgm-website-angular/)
+- Check a **live version** of this repo at [wpanderson.net](http://wpanderson.net/)
+- You can also check the master branch in github pages at [https://github.com/willpanderson/willpanderson.github.io)
 
 ## ⚙️ Development commands
 
